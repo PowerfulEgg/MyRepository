@@ -1,0 +1,49 @@
+p{
+    text-align: center;
+}
+
+#form-country{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#table{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.popup, .link{
+    color: #f00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.b-popup, .error-fix{
+    width: 100%;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+}
+
+.b-popup .b-popup-content,.error-fix .error-fix-form{
+    margin: 20px auto 20px auto;
+    width: 80%;
+    height: 500px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#info>h2{
+    text-align: center;
+}
